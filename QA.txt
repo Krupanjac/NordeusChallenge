@@ -1,0 +1,34 @@
+QA
+
+ ● Description of bugs that came up- how you noticed and fixed them
+-low FPS because i didn't preload the shaders. Fixed by preloading them instead of reinitiating them every frame.
+-By making my own level implementations first, i got a bug with colors of NORDEUS difficulty. But since NORDEUS matrix is composed of very large islands with very big heights(0 to 1000) i just left it like this since we can even call it a feature like this :)
+-Game was at first too hard, so had to switch thing up, so i made it very easy and by having the old code i just made 2 difficulties, easy and hard which are part of the game now.
+
+
+
+ ● Ways you would test the projects of other contestants (inputs, actions you would do etc.)
+Mostly by trying out the game itself, maybe trying to break a thing or two just to make sure everything is ready. I would also go over code so i can maybe get some critical error that can be introduced due to mishandling of code.
+
+
+
+ ● Improvements/features you would make if you had a magic wand (able to do anything
+ you wish for)
+If i had more time definitely leaderboard, timer for average completion, global ranking, better graphics and maybe some more animations.
+
+
+ ● Think of how some factors could affect your solution (e.g. map size, number of lives…)
+Map size would make hard difficulty extremely unlikely to be beaten. Number of lives could even go higher for such difficulty so i am okay with that but not with map size i guess :D
+
+
+● Dev notes
+Press P to pause the game. By pressing P you will access a menu which has CHEATS feature (among other) for you to turn on if you want to.
+Left click to select Island you thing has greatest height.
+ESC can be used when inside the game to QUIT the game itself. Otherwise use X button.
+By pressing MUSIC in Menu you will change the Music to different one.
+Requires pygame and requests in order to work on your PC (pip install).
+
+
+
+Arsen Djurdjev, 2024
+
