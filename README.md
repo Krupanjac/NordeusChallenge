@@ -1,6 +1,9 @@
 # Full-stack Challenge - Engineering Mastery
 Nordeus - Job Fair 2024
 
+[![nord1](https://i.imgur.com/ViSCCYU.png)
+[![nord2](https://i.imgur.com/dWvXFEO.png)
+
 Conquer the Challenge and become a complete developer!
 ## Intro
 On most projects at Nordeus there are 3 developer roles working together: Backend, Client,
